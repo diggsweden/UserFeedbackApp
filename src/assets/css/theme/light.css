@@ -1,0 +1,24 @@
+/*
+ * Light mode
+ */
+
+:root {
+	--userfeedback-title: #4A5464;
+	--userfeedback-text: #4A5464;
+	--userfeedback-primary: #004ECC;
+	--userfeedback-highlight: #F8F9FB;
+	--userfeedback-midtone: #D4DADF;
+	--userfeedback-background: #FFFFFF;
+	--userfeedback-tooltip: #4A5464;
+	--userfeedback-tooltip-icon: #A8B4BC;
+	--userfeedback-outline: #124562;
+	--userfeedback-button-hover: #DBE6F8;
+	--userfeedback-button-active: #B6C7D7;
+	--userfeedback-button-selected: #F8F9FB;
+
+	--userfeedback-complimentary-geen: #49C76C;
+	--userfeedback-complimentary-red: #C0090E;
+	--userfeedback-complimentary-yellow: #FFDA79;
+	--userfeedback-complimentary-orange: #FBA95D;
+	--userfeedback-complimentary-red-light: #FBA95D;
+}

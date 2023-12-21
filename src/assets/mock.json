@@ -1,0 +1,18 @@
+{
+	"config": {
+		"apiKey": "test-key-123",
+		"tags": [],
+		"labels": [],
+		"parentName": ""
+	},
+	"styling": {
+		"align": "center"
+	},
+	"context": {
+		"fingerprint": "123354123462346723462342345",
+		"domain": "test.se",
+		"path": "/test/path/to/fun",
+		"name": "Test function 1",
+		"locale": "en"
+	}
+}

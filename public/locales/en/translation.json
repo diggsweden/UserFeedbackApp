@@ -1,0 +1,35 @@
+{
+	"app": {
+		"loading": "Loading.."
+	},
+    "option": {
+        "very-angry": "Miserable",
+        "angry": "Bad",
+        "neutral": "Neutral",
+        "happy": "Good",
+        "very-happy": "Excellent"
+    },
+    "container": {
+        "footer": {
+            "choice": "Your score: {{score}}/5",
+            "average": "Average score: {{average}}/5.0 of {{count}} votes"
+        }
+    },
+	"header": {
+		"title": "How was your experience?",
+        "tooltip": {
+			"text": "Click on the face that best describes your experience.",
+			"alt_text": "Information"
+		}
+	},
+    "receipt": {
+        "rating": {
+            "title": "Thanks for your feedback!",
+            "subtitle": "Your opinion is important to us as we strive to improve our service."
+        },
+        "survey": {
+            "title": "Thank you for your help!",
+            "subtitle": "Your feedback helps us shape an even better service for all of our users. Together we make a difference!"
+        }
+    }
+}

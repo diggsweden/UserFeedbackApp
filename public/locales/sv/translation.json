@@ -1,0 +1,35 @@
+{
+	"app": {
+		"loading": "Laddar.."
+	},
+	"option": {
+		"very-angry": "Usel",
+		"angry": "Dålig",
+		"neutral": "Neutral",
+		"happy": "Bra",
+		"very-happy": "Fantastisk"
+	},
+	"container": {
+		"footer": {
+			"choice": "Ditt betyg: {{score}}/5",
+			"average": "Genomsnittligt betyg: {{average}}/5.0 baserat på {{count}} betyg."
+		}
+	},
+	"header": {
+		"title": "Hur var din upplevelse av tjänsten?",
+		"tooltip": {
+			"text": "Klicka på symbolen som bäst representerar din upplevelse för att betygsätta den.",
+			"alt_text": "Information"
+		}
+	},
+	"receipt": {
+		"rating": {
+			"title": "Tack för ditt betyg!",
+			"subtitle": "Din åsikt är viktig för oss när vi strävar efter att förbättra vår tjänst."
+		},
+		"survey": {
+			"title": "Stort tack för din hjälp!",
+			"subtitle": "Din feedback hjälper oss att forma en ännu bättre tjänst för alla våra användare. Tillsammans gör vi skillnad!"
+		}
+	}
+}

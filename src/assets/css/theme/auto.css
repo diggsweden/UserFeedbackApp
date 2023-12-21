@@ -1,0 +1,6 @@
+/**
+ * Automatic theme
+ */
+
+@import url("./light.css") only screen and (prefers-color-scheme: light);
+@import url("./dark.css") only screen and (prefers-color-scheme: dark);

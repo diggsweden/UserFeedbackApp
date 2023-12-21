@@ -1,0 +1,33 @@
+.user-feedback-receipt {
+	margin: 0;
+	padding: 9px 16px 27px 16px;
+}
+
+.user-feedback-receipt .user-feedback-receipt-title {
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 28px;
+}
+
+.user-feedback-receipt .user-feedback-receipt-subtitle {
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+@media screen and (min-width: 650px) {
+	.user-feedback-receipt {
+		padding: 19px 22px 30px 22px;
+	}
+
+	.user-feedback-receipt .user-feedback-receipt-title {
+		font-size: 24px;
+		line-height: normal;
+	}
+
+	.user-feedback-receipt .user-feedback-receipt-subtitle {
+		font-size: 20px;
+	}
+}

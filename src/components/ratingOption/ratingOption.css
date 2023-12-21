@@ -1,0 +1,80 @@
+/**
+* Reset Button
+*/
+button {
+	font-family: inherit; /* 1 */
+	font-size: 100%; /* 1 */
+	line-height: 1.15; /* 1 */
+	margin: 0; /* 2 */
+	overflow: visible;
+	text-transform: none;
+}
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+	-webkit-appearance: button;
+}
+
+/**
+ * Mobile
+ */
+.rating-option {
+	display: flex;
+
+	width: 100%;
+	padding: 12px 16px;
+	align-items: center;
+	gap: 8px;
+
+	border-radius: 6px;
+	border: 0;
+	outline: 1px solid var(--userfeedback-midtone, #d4dadf);
+	background: var(--userfeedback-highlight, #f8f9fb);
+}
+
+.rating-option p {
+	margin: 0;
+}
+
+.rating-option:hover {
+	cursor: pointer;
+	outline: 2px solid var(--userfeedback-outline, #004ecc);
+	background: var(--userfeedback-button-hover, #e6ecf2);
+}
+
+.rating-option:active {
+	outline: 2px solid var(--userfeedback-outline, #124562);
+	background: var(--userfeedback-button-active, #b6c7d7);
+}
+
+.rating-option:focus-visible {
+	outline: 3px solid var(--userfeedback-outline, #124562);
+	background: var(--userfeedback-button-selected, #f8f9fb);
+}
+
+.rating-selected {
+	outline: 2px solid var(--userfeedback-outline, #124562);
+	background: var(--userfeedback-button-selected, #f8f9fb);
+}
+
+.rating-option-smiley,
+.rating-option-smiley img {
+	width: 20px;
+	height: 20px;
+}
+
+/**
+* Desktop
+*/
+@media only screen and (min-width: 992px) {
+	.rating-option {
+		display: flex;
+		padding: 12px 16px;
+		justify-content: center;
+		align-items: center;
+
+		border-radius: 6px;
+	}
+}

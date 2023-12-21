@@ -1,0 +1,88 @@
+.user-feedback-header {
+	display: grid;
+	grid-template-columns: 1fr 24px;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	margin: 0 0 12px 0;
+}
+
+.tooltip {
+	grid-area: 1 / 2 / 2 / 3;
+
+	width: 24px;
+	height: 24px;
+}
+
+.tooltip-content {
+	margin-top: 12px;
+	padding: 15px;
+	border-radius: 4px;
+
+	grid-area: 2 / 1 / 3 / -1;
+
+	color: var(--userfeedback-background, #FFF);
+	background: var(--userfeedback-tooltip, #4A5464);
+	max-width: 100%;
+}
+
+.tooltip-content p {
+	color: var(--userfeedback-background, #FFF);
+	margin: 0;
+}
+
+.tooltip {
+	width: 24px;
+	height: 24px;
+
+	border-radius: 50%;
+	border: none;
+	background: none;
+
+	cursor: pointer;
+}
+
+.tooltip:focus {
+	outline: none;
+}
+.tooltip:focus-visible {
+	outline: 3px solid var(--userfeedback-outline, #124562);
+}
+
+.info-icon {
+	fill: var(--userfeedback-tooltip-icon, #fff);
+}
+
+.tooltip:hover .info-icon {
+	fill: var(--userfeedback-tooltip, #fff);
+}
+
+.close-icon {
+	fill: var(--userfeedback-tooltip, #4A5464);
+}
+
+.tooltip:hover .close-icon {
+	fill: var(--userfeedback-tooltip-icon, #fff);
+}
+
+.visible {
+	height: auto;
+	opacity: 1;
+	transition: opacity 0.3s;
+}
+
+.hidden {
+	margin: 0;
+	padding: 0 15px;
+	opacity: 0;
+	transition: opacity 0.3s;
+	height: 0;
+}
+
+/**
+ * Desktop / Tablet
+ */
+@media only screen and (min-width: 650px) {
+	.user-feedback-header {
+		margin: 0 0 18px 0;
+	}
+}

@@ -1,0 +1,15 @@
+/**
+ * Dark mode colors
+ */
+:root {
+	--userfeedback-text: #FFF;
+	--userfeedback-title: #F8F9FB;
+	--userfeedback-highlight: #15191F;
+	--userfeedback-midtone: #D4DADF;
+	--userfeedback-background: #15191F;
+	--userfeedback-tooltip: #B6C7D7;
+	--userfeedback-outline: #B6C7D7;
+	--userfeedback-button-hover: #15191F;
+	--userfeedback-button-active: #4A5464;
+	--userfeedback-button-selected: #15191F;
+}
