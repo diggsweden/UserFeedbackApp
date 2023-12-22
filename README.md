@@ -17,9 +17,11 @@
 
 ## Introduction
 
-UserFeedbackApp is a small frontend application created using "Create React App." The main purpose of this app is to collect user feedback for functionality or features of third-party apps. It provides an easy-to-use interface for users to rate various aspects of the apps they interact with. See https://github.com/diggsweden/InclusionToolbox
+UserFeedbackApp is a small frontend application created using "Create React App". The main purpose of this app is to collect anonymous user feedback for functionality or features of third-party apps. It provides an easy-to-use interface for users to rate various aspects of the apps they interact with.
 
 The app is designed to be scalable, allowing it to handle a growing number of users and feedback efficiently. It also leverages Storybook for frontend reviews, making it easy for developers to review and test UI components in isolation.
+
+It utilizes a [Spring Boot API](https://github.com/diggsweden/UserFeedbackAPI) to handle the impressions & ratings. It's made available through a [JavaScript drop-in library](https://github.com/diggsweden/InclusionToolbox), please review the [repository](https://github.com/diggsweden/InclusionToolbox) for more detailed documentation of how to utilize it.
 
 ## Features
 
