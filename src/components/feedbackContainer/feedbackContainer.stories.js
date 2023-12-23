@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2023 Digg - Agency for Digital Government
+//
+// SPDX-License-Identifier: MIT
+
 import FeedbackContainer from './feedbackContainer';
 import mock from '../../assets/mock.json';
 

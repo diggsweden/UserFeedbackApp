@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2023 Digg - Agency for Digital Government
+//
+// SPDX-License-Identifier: CC0-1.0
+
 import { initReactI18next } from 'react-i18next';
 import i18n from 'i18next';
 import Backend from 'i18next-http-backend';

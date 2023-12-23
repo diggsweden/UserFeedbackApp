@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2023 Digg - Agency for Digital Government
+//
+// SPDX-License-Identifier: MIT
+
 import ApiService from './api-service';
 import caller from './http-service';
 jest.mock('./http-service');

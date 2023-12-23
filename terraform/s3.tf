@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2023 Digg - Agency for Digital Government
+#
+# SPDX-License-Identifier: CC0-1.0
+
 resource "aws_s3_bucket" "user_feedback_app" {
   bucket = var.bucket_name
 
