@@ -3,4 +3,5 @@
  */
 
 @import url("./light.css") only screen and (prefers-color-scheme: light);
+@import url("./light.css") only screen and (prefers-color-scheme: no-preference);
 @import url("./dark.css") only screen and (prefers-color-scheme: dark);
