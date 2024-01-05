@@ -1,4 +1,16 @@
+<!--
+SPDX-FileCopyrightText: 2023 Digg - Agency for Digital Government
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 # UserFeedbackApp
+
+[![License: MIT](https://img.shields.io/badge/Licence-MIT-yellow)](https://img.shields.io/badge/Licence-MIT-yellow) 
+
+[![REUSE status](https://api.reuse.software/badge/github.com/diggsweden/userfeedbackapp)](https://api.reuse.software/info/github.com/diggsweden/userfeedbackapp)
+
+
 
 ![User Feedback App](./user_feedback_preview.png)
 

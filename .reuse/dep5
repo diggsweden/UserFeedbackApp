@@ -1,0 +1,23 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: userfeedbackapp
+Source: https://github.com/diggsweden/userfeedbackapp
+
+Files: package*.json public/**/*.json src/assets/mock.json public/manifest.json
+Copyright: Digg - Agency for Digital Government
+License: CC0-1.0
+
+Files: user_feedback_preview.png
+Copyright: Digg - Agency for Digital Government
+License: CC0-1.0
+
+# Third-party files.
+
+Files: src/assets/fonts/Lato-Regular.ttf
+Copyright: tyPoland Lukasz Dziedzic
+License: OFL-1.1
+
+# these were a bit unclear, in the future please correct,
+#/and replace general ones in the future
+Files: public/*.png public/**/*.svg public/favicon.ico
+Copyright: Facebook
+License: CC0-1.0

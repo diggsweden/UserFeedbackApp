@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2023 Digg - Agency for Digital Government
+#
+# SPDX-License-Identifier: CC0-1.0
+
 # Retrieve github-user as a resource
 data "aws_iam_user" "user" {
   user_name = "github_user"

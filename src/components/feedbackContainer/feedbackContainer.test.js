@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2023 Digg - Agency for Digital Government
+//
+// SPDX-License-Identifier: MIT
+
 import React from 'react';
 import { render, fireEvent, waitFor, screen } from '@testing-library/react';
 import FeedbackContainer from './feedbackContainer';
