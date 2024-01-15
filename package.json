@@ -44,7 +44,7 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.16.7",
     "@storybook/addon-essentials": "^7.6.7",
     "@storybook/addon-interactions": "^7.6.7",
-    "@storybook/addon-links": "^7.6.1",
+    "@storybook/addon-links": "^7.6.8",
     "@storybook/addon-onboarding": "^1.0.10",
     "@storybook/blocks": "^7.6.7",
     "@storybook/preset-create-react-app": "^7.6.1",
