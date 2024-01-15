@@ -10,7 +10,7 @@
     "react-dom": "^18.2.0",
     "react-i18next": "^13.5.0",
     "react-scripts": "5.0.1",
-    "storybook-react-i18next": "^2.0.9",
+    "storybook-react-i18next": "^2.0.10",
     "web-vitals": "^3.5.0"
   },
   "scripts": {
